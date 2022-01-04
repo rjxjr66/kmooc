@@ -195,6 +195,8 @@ ul.tasks > li > div p {
 }
 
 footer {
+    position: relative;
+
     margin: 0 -16px -16px -16px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -203,4 +205,18 @@ footer {
     display: flex;
     justify-content: space-between;
     background: #292F3F;
+}
+
+footer img {
+    width: 24px;
+}
+
+#btn-add {
+    position: absolute;
+    top: -24px;
+    left: calc(50% - 32px);
+    
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
 }
